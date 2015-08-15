@@ -2,6 +2,7 @@
 Making Minecraft more realistic and adding a few bucks to the difficulty
 
 /*****************************************************************************************************
+
 This plugin's goal is making Minecraft a more realistic and also more
 difficult experience. To make it a real "survival" game and not just
 a lego simulator (nothing against that).
@@ -22,6 +23,7 @@ have been completely removed while many other tools recipe has simply changed.
 ALL THESE FEATURES ARE NOT FINISHED AND PROBABLY WILL NEVER BE REALLY "FINISHED"
 THERE WILL ALWAYS BE MORE TO ADD, THE AMOUNT OF FEATURES IS JUST DEPENDENT ON THE
 TIME USED TO WORK ON THIS PLUGIN
+
 *******************************************************************************************************/
  
 There are no dependencies. This is a stand-alone plugin.
