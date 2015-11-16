@@ -26,7 +26,14 @@ public final class NewRecipes{
         return flint;
     }
     // End::TestItem
-
+    
+    public void NewCraftingTable (Player player) {
+        ItemStack craftingTable = new ItemStack(Material.WORKBENCH);
+        ShapedRecipe craftingTableRecipe = new ShapedRecipe(craftingTable);
+        craftingTableRecipe.shape("BB","BB");
+        craftingTableRecipe.setIngredient('B', Material.STICK);
+    }
+    
     public void NewStoneAxe(Player player) {
         ItemStack stoneAxe = new ItemStack(Material.STONE_AXE);
         ShapedRecipe stoneAxeRecipe = new ShapedRecipe(stoneAxe);
