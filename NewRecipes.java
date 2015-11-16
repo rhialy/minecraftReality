@@ -32,6 +32,8 @@ public final class NewRecipes{
         ShapedRecipe craftingTableRecipe = new ShapedRecipe(craftingTable);
         craftingTableRecipe.shape("BB","BB");
         craftingTableRecipe.setIngredient('B', Material.STICK);
+        
+        player.getServer().addRecipe(craftingTableRecipe);
     }
     
     public void NewStoneAxe(Player player) {
