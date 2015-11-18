@@ -1,4 +1,4 @@
-package de.creunity.minecraftReality;
+package de.creunity.MinecraftReality;
 
 import net.md_5.bungee.api.ChatColor;
 import org.bukkit.Material;
@@ -41,8 +41,10 @@ public class PlayerLogin implements Listener {
         player.sendMessage(ChatColor.BOLD + "Welcome to the Minecraft Reality Project! If you're new please type" + ChatColor.GREEN + " /help!");
         RemoveVanillaItem(Material.STONE_AXE, player);
         RemoveVanillaItem(Material.STONE_PICKAXE, player);
+        RemoveVanillaItem(Material.WORKBENCH, player);
         newRecipes.NewStoneAxe(player);
         newRecipes.NewStonePickAxe(player);
+        newRecipes.NewCraftingTable(player);
     }
 
 }
